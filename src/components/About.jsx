@@ -30,7 +30,7 @@ export default function About() {
         <div className="about-image">
           <div className="about-img-wrapper">
             <div className="about-img-placeholder">
-              <img src="/yeshwanth_prof.jpg" alt="Yeshwanth Sai Barla" className="about-img" />
+              <img src={`${import.meta.env.BASE_URL}yeshwanth_prof.jpg`} alt="Yeshwanth Sai Barla" className="about-img" />
             </div>
           </div>
         </div>
